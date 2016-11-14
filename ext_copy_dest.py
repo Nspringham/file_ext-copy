@@ -1,7 +1,7 @@
 # ext_copy_dest.py - Find all files in directory tree 
-# Find all PDF files in directory tree
+# Find all specific file extension in directory tree
 # Print the files
-# Copy all PDF files to designated folder
+# Copy files to designated folder
 
 
 import os
@@ -35,8 +35,8 @@ print('Enter the file extension (.pdf, .txt, etc..)')
 fileExt = input()
 
 # File directory path
-os.makedirs(os.path.join('C:\\Users\\Nick\\Documents\\', newDir))
+os.makedirs(os.path.join('C:\\Users\\<user>\\Documents\\', newDir))
 
-# Move all pdf files from C:\ to C:\Users\Nick\Documents\pdf
-move_all_ext('.' + fileExt, "C:\\", os.path.join('C:\\Users\\Nick\\Documents\\', newDir))
+# Move all pdf files from C:\ to C:\Users\<user>\Documents\
+move_all_ext('.' + fileExt, "C:\\", os.path.join('C:\\Users\\<user>\\Documents\\', newDir))
 
