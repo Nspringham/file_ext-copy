@@ -1,5 +1,5 @@
 # file_ext-copy
-Find all files of a single extension and copy to designated director.
+Find all files of a single extension and copy to designated directory.
 You will be prompted to enter a file extenson type (pdf, txt, py, etc) 
 followed by the name of the directory you want all the files to be copied to.
 
